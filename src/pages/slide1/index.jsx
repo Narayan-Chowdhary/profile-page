@@ -85,7 +85,7 @@ export default function Slide1() {
                           fontSize: { xs: "5vw", md: "3vw" },
 
                         }}
-                        className="text-[#808080] dark:text-[#fff]"
+                        className="text-[#808080] dark:text-[#fff] text-md"
                       >
                         Software Developer
                       </Typography>
