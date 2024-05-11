@@ -87,7 +87,7 @@ export default function Slide1() {
                         }}
                         className="text-[#808080] dark:text-[#fff]"
                       >
-                        FreeLancer
+                        Software Developer
                       </Typography>
                     </motion.li>
 
