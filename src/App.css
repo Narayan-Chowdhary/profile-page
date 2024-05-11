@@ -1,0 +1,103 @@
+.pumpkin {
+  color: #34d399
+}
+
+.bg-our-services {
+  background-image: url('./assests/images/slide4/showing-good-results-group-young-freelancers-office-have-conversation-smiling.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.bg-services {
+  background-image: url('./assests/images/slide4/Vector.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.heading-text-md {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.heading-text-sm {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.first_content:nth-child(odd) .after_underline_slide7::before {
+  content: '';
+  height: 74px;
+  background: #34d399;
+  width: 7px;
+  position: absolute;
+  right: -3%;
+  border-radius: 10px;
+}
+
+
+.first_content:nth-child(even) .after_underline_slide7::before {
+  content: '';
+  height: 74px;
+  background: gray;
+  width: 7px;
+  position: absolute;
+  right: -3%;
+  border-radius: 10px;
+}
+
+
+
+.last_content:nth-child(even) .after_underline_slide7::before {
+  content: '';
+  height: 74px;
+  background: #34d399;
+  width: 7px;
+  position: absolute;
+  left: -3%;
+  border-radius: 10px;
+}
+
+.last_content:nth-child(odd) .after_underline_slide7::before {
+  content: '';
+  height: 74px;
+  background: gray;
+  width: 7px;
+  position: absolute;
+  left: -3%;
+  border-radius: 10px;
+}
+
+
+
+@media (max-width: 767px) {
+  .first_content:nth-child(odd) .after_underline_slide7::before {
+    content: '';
+    height: 50px;
+    background: #34d399;
+    width: 3px;
+    position: absolute;
+    left: -3%;
+    top: 27px;
+    border-radius: 10px;
+  }
+
+  .first_content:nth-child(even) .after_underline_slide7::before {
+    content: '';
+    height: 50px;
+    background: gray;
+    width: 3px;
+    position: absolute;
+    left: -3%;
+    top: 27px;
+    border-radius: 10px;
+  }
+
+  .last_content:nth-child(even) .after_underline_slide7::before,
+  .last_content:nth-child(odd) .after_underline_slide7::before {
+    height: 50px;
+    width: 3px;
+    top: 27px;
+  }
+}
