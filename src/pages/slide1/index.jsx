@@ -248,7 +248,7 @@ export default function Slide1() {
             <Typography variant="h6" sx={{ textAlign: "center", display: "flex", justifyContent: "center" }}>
               <img src={websiteIcom} alt="" className="mr-2" />
               <a
-                href="https://www.github.com/narayan-chowdhary"
+                href="https://leetcode.com/u/narayan-chowdhary/"
                 target="blank"
                 style={{
                   textDecoration: "none",
@@ -257,7 +257,7 @@ export default function Slide1() {
                 }}
               >
 
-               github
+               LeetCode
               </a>
             </Typography>
           </Grid>
