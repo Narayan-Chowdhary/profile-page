@@ -92,7 +92,7 @@ const AppLayout = () => {
                     <Slide5 />
                     <Slide6 />
                     <Slide7 />
-                    <Slide9 />
+                    {/* <Slide9 /> */}
                     {/* <Slide10 /> */}
                     <Slide11 />
                 </Slider>
@@ -106,7 +106,7 @@ const AppLayout = () => {
                 <Slide5 />
                 <Slide6 />
                 <Slide7 />
-                <Slide9 />
+                {/* <Slide9 /> */}
                 {/* <Slide10 /> */}
                 <Slide11 />
             </div>
