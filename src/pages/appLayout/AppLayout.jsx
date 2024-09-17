@@ -13,8 +13,6 @@ import Slide4 from '../slide4';
 import Slide5 from '../slide5'
 import Slide6 from '../slide6';
 import Slide7 from '../slide7'; 
-import Slide9 from '../slide9';
-import Slide10 from '../slide10';
 import Slide11 from '../slide11'
 
 const AppLayout = () => {
@@ -92,8 +90,7 @@ const AppLayout = () => {
                     <Slide5 />
                     <Slide6 />
                     <Slide7 />
-                    {/* <Slide9 /> */}
-                    {/* <Slide10 /> */}
+        
                     <Slide11 />
                 </Slider>
             </div>
@@ -106,8 +103,7 @@ const AppLayout = () => {
                 <Slide5 />
                 <Slide6 />
                 <Slide7 />
-                {/* <Slide9 /> */}
-                {/* <Slide10 /> */}
+          
                 <Slide11 />
             </div>
             <DarkModeToggle />
