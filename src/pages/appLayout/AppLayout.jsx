@@ -90,7 +90,7 @@ const AppLayout = () => {
                     <Slide5 />
                     <Slide6 />
                     <Slide7 />
-        
+
                     <Slide11 />
                 </Slider>
             </div>
@@ -103,7 +103,7 @@ const AppLayout = () => {
                 <Slide5 />
                 <Slide6 />
                 <Slide7 />
-          
+
                 <Slide11 />
             </div>
             <DarkModeToggle />

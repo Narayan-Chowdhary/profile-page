@@ -85,9 +85,9 @@ export default function Slide1() {
                           fontSize: { xs: "5vw", md: "3vw" },
 
                         }}
-                        className="text-[#808080] dark:text-[#fff]"
+                        className="text-[#808080] dark:text-[#fff] text-sm"
                       >
-                        FreeLancer
+                        Software Developer
                       </Typography>
                     </motion.li>
 
@@ -248,7 +248,10 @@ export default function Slide1() {
             <Typography variant="h6" sx={{ textAlign: "center", display: "flex", justifyContent: "center" }}>
               <img src={websiteIcom} alt="" className="mr-2" />
               <a
+
                 href="www.linkedin.com/in/narayan-chowdhary-378689251"
+
+
                 target="blank"
                 style={{
                   textDecoration: "none",
@@ -257,7 +260,9 @@ export default function Slide1() {
                 }}
               >
 
+
                LinkedIn
+
               </a>
             </Typography>
           </Grid>
