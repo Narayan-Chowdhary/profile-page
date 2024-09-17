@@ -1,4 +1,4 @@
-import LeftImage from "../../assests/New Images/contact/dev.jpg"
+import LeftImage from "../../assests/New Images/contact/ImageDp.jpg"
 import { useRef } from 'react'
 import { motion, useInView } from "framer-motion";
 import CountUp from "react-countup";
@@ -38,8 +38,8 @@ export default function Slide2() {
         <>
             <div className="lg:h-[100vh] flex mt-4 sm:mt-12 lg:mt-0 overflow-hidden" ref={ref}>
                 <div className="lg:w-[42%] xl:w-[48%] 2xl:w-[41%] h-[100vh] overflow-visible hidden lg:block">
-                    {/* <img src={LeftImage} className="h-full w-auto overflow-visible object-contain" /> */}
-                    <div className="bg-[#34d399] h-full">.</div>
+                     <img src={LeftImage} className="h-full w-auto overflow-visible object-contain" />
+                    {/*<div className="bg-[#34d399] h-full">.</div> */}
                 </div>
                 <div className="lg:w-[58%] xl:w-[52%] 2xl:w-[59%] py-8 lg:py-4 px-4 md:mx-16 lg:ml-0 md:flex md:flex-col md:justify-evenly custom_translate">
                     <div>

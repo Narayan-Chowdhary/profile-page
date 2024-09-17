@@ -1,5 +1,5 @@
 import Logo from "../../assests/logo/Logo.JPG";
-import FrontImage from "../../assests/New Images/contact/building.jpg";
+import FrontImage from "../../assests/New Images/contact/dev.jpg";
 import { Box, Typography, Grid } from "@mui/material";
 import websiteIcom from '../../assests/images/slide1/WebsiteIcon.png'
 import TelIcon from '../../assests/images/slide1/contactIcon.png'
@@ -248,7 +248,10 @@ export default function Slide1() {
             <Typography variant="h6" sx={{ textAlign: "center", display: "flex", justifyContent: "center" }}>
               <img src={websiteIcom} alt="" className="mr-2" />
               <a
-                href="https://leetcode.com/u/narayan-chowdhary/"
+
+                href="www.linkedin.com/in/narayan-chowdhary-378689251"
+
+
                 target="blank"
                 style={{
                   textDecoration: "none",
@@ -257,7 +260,9 @@ export default function Slide1() {
                 }}
               >
 
-               LeetCode
+
+               LinkedIn
+
               </a>
             </Typography>
           </Grid>
