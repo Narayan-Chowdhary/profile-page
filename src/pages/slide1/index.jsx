@@ -71,7 +71,7 @@ export default function Slide1() {
                             }}
                             className="dark:bg-[#464444]"
                           >
-                            Profile Page Demo
+                            Portfolio
                           </Typography>
                         </Box>
                       </motion.div>
