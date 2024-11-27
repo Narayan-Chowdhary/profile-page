@@ -78,7 +78,7 @@ export default function Slide4() {
 
             <div className="object-contain">
               <motion.ul
-                className="grid grid-cols-12 gap-x-4 gap-y-4 2xl:gap-y-10 items-center md:w-[90%] mx-auto"
+                className="flex gap-x-4 gap-y-4 2xl:gap-y-10 flex-wrap object-contain justify-center items-center md:w-[90%] mx-auto"
                 variants={container}
                 initial="hidden"
                 animate={isInView ? "visible" : "hidden"}
@@ -88,7 +88,7 @@ export default function Slide4() {
                     <motion.li
                       key={i}
                       variants={item}
-                      className={`cursor-pointer  inline-block w-[45%] sm:w-[28%] lg:w-[100%] ${e.colspan} `}
+                      className={`cursor-pointer inline-block w-[45%] sm:w-[28%] lg:w-[38%] `}
                     >
                       <a href={e.link} target="blank">
                         <div
