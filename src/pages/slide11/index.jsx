@@ -103,7 +103,7 @@ const Slide15 = () => {
                 >
                   <a
                     className="bg-white dark:bg-[#464444] w-full sm:w-[330px] rounded-[57px] h-[57px] flex items-center hover:!bg-[#34d399]  ease-in-out duration-300 pl-4 sm:pl-8"
-                    href="www.linkedin.com/in/narayan-chowdhary-378689251"
+                    href="https://www.linkedin.com/in/narayan-chowdhary-378689251"
                     target="_blank"
                   >
                     <img

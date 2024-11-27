@@ -288,7 +288,7 @@ export default function Slide1() {
                 className="mr-2 filter invert brightness-0 saturate-100"
               />
               <a
-                href="www.linkedin.com/in/narayan-chowdhary-378689251"
+                href="https://www.linkedin.com/in/narayan-chowdhary-378689251"
                 target="blank"
                 style={{
                   textDecoration: "none",
