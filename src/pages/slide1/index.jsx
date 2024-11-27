@@ -1,15 +1,20 @@
 import Logo from "../../assests/logo/Logo.JPG";
 import FrontImage from "../../assests/New Images/contact/dev.jpg";
 import { Box, Typography, Grid } from "@mui/material";
-import websiteIcom from '../../assests/images/slide1/WebsiteIcon.png'
-import TelIcon from '../../assests/images/slide1/contactIcon.png'
-import emailIcon from '../../assests/images/slide1/emailIcon.png'
-import { container, item, cardVariantsBottomWithDelay, cardVariantsLeftForHeading } from '../../components/animations'
-import { motion, useInView  } from "framer-motion";
+import TelIcon from "../../assests/images/slide1/contactIcon.png";
+import emailIcon from "../../assests/images/slide1/emailIcon.png";
+import Linkedin from "../../assests/images/slide1/linkedin.png";
+import {
+  container,
+  item,
+  cardVariantsBottomWithDelay,
+  cardVariantsLeftForHeading,
+} from "../../components/animations";
+import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 
 export default function Slide1() {
-  const ref = useRef(null)
+  const ref = useRef(null);
   const isInView = useInView(ref, { once: false });
   return (
     <>
@@ -36,7 +41,7 @@ export default function Slide1() {
                   my: 6,
                 }}
               >
-                <img src={Logo} alt="Logo" width="120px"  />
+                <img src={Logo} alt="Logo" width="120px" />
               </Box>
               <Box
                 sx={{
@@ -50,16 +55,27 @@ export default function Slide1() {
                     marginTop: {
                       xl: 8,
                       lg: 1,
-                      xs: 0
-                    }
+                      xs: 0,
+                    },
                   }}
                 >
-                  <motion.ul className="flex flex-col justify-between" variants={container} initial="hidden" animate={isInView ? "visible" : "hidden"}>
-                    <motion.div initial="offscreen" whileInView="onscreen" viewport={{ once: false, amount: 0.8 }}>
-                     <motion.div variants={cardVariantsLeftForHeading}>
-                        <Box sx={{
-                          pb: 4,
-                        }}>
+                  <motion.ul
+                    className="flex flex-col justify-between"
+                    variants={container}
+                    initial="hidden"
+                    animate={isInView ? "visible" : "hidden"}
+                  >
+                    <motion.div
+                      initial="offscreen"
+                      whileInView="onscreen"
+                      viewport={{ once: false, amount: 0.8 }}
+                    >
+                      <motion.div variants={cardVariantsLeftForHeading}>
+                        <Box
+                          sx={{
+                            pb: 4,
+                          }}
+                        >
                           <Typography
                             sx={{
                               color: "#34d399",
@@ -83,7 +99,6 @@ export default function Slide1() {
                           fontWeight: 500,
                           lineHeight: "0.4",
                           fontSize: { xs: "5vw", md: "3vw" },
-
                         }}
                         className="text-[#808080] dark:text-[#fff] text-sm"
                       >
@@ -96,7 +111,7 @@ export default function Slide1() {
                         sx={{
                           color: "#34d399",
                           fontSize: { xs: "8vw", md: "5vw" },
-                          ml: "-4px"
+                          ml: "-4px",
                         }}
                       >
                         <b>Narayan</b>
@@ -116,7 +131,11 @@ export default function Slide1() {
                         MERN Stack Developer
                       </Typography>
                     </motion.li>
-                    <motion.div initial="offscreen" whileInView="onscreen" viewport={{ once: true, amount: 0.8 }}>
+                    <motion.div
+                      initial="offscreen"
+                      whileInView="onscreen"
+                      viewport={{ once: true, amount: 0.8 }}
+                    >
                       <motion.div variants={cardVariantsBottomWithDelay}>
                         <Typography
                           sx={{
@@ -125,7 +144,7 @@ export default function Slide1() {
                             mt: {
                               xl: 6,
                               md: 3,
-                              xs: 6
+                              xs: 6,
                             },
                             borderTop: "1px solid",
                             mb: 2,
@@ -181,12 +200,17 @@ export default function Slide1() {
               pl: { xs: 0, md: 5 },
               textAlign: { xs: "center", md: "start" },
               py: 2,
-              borderRight:  "1px solid black",
-
+              borderRight: "1px solid black",
             }}
           >
-
-            <Typography variant="h6" sx={{ textAlign: "center", display: "flex", justifyContent: "center" }}>
+            <Typography
+              variant="h6"
+              sx={{
+                textAlign: "center",
+                display: "flex",
+                justifyContent: "center",
+              }}
+            >
               <img src={TelIcon} alt="" className="mr-2" />
               <a
                 href="https://wa.me/+916269090901"
@@ -199,7 +223,6 @@ export default function Slide1() {
               >
                 +91 9723973229
               </a>
-
             </Typography>
           </Grid>
           <Grid
@@ -213,11 +236,18 @@ export default function Slide1() {
               pl: { xs: 0, md: 5 },
               textAlign: { xs: "center", md: "start" },
               py: 2,
-              justifyContent: "center",  borderRight:  "1px solid black",
+              justifyContent: "center",
+              borderRight: "1px solid black",
             }}
           >
-
-            <Typography variant="h6" sx={{ textAlign: "center", display: "flex", justifyContent: "center" }}>
+            <Typography
+              variant="h6"
+              sx={{
+                textAlign: "center",
+                display: "flex",
+                justifyContent: "center",
+              }}
+            >
               <img src={emailIcon} alt="" className="mr-2" />
               <a
                 href="mailto:narayan97.nk@gmail.com"
@@ -244,14 +274,21 @@ export default function Slide1() {
               py: 2,
             }}
           >
-
-            <Typography variant="h6" sx={{ textAlign: "center", display: "flex", justifyContent: "center" }}>
-              <img src={websiteIcom} alt="" className="mr-2" />
+            <Typography
+              variant="h6"
+              sx={{
+                textAlign: "center",
+                display: "flex",
+                justifyContent: "center",
+              }}
+            >
+              <img
+                src={Linkedin}
+                alt=""
+                className="mr-2 filter invert brightness-0 saturate-100"
+              />
               <a
-
                 href="www.linkedin.com/in/narayan-chowdhary-378689251"
-
-
                 target="blank"
                 style={{
                   textDecoration: "none",
@@ -259,10 +296,7 @@ export default function Slide1() {
                   color: "white",
                 }}
               >
-
-
-               LinkedIn
-
+                LinkedIn
               </a>
             </Typography>
           </Grid>
