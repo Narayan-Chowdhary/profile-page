@@ -78,7 +78,7 @@ export default function Slide4() {
 
             <div className="object-contain">
               <motion.ul
-                className="flex gap-x-4 gap-y-4 2xl:gap-y-10 flex-wrap object-contain justify-center items-center md:w-[90%] mx-auto"
+                className="flex gap-x-4 gap-y-4 2xl:gap-y-10 flex-wrap  object-contain justify-center items-center md:w-[90%] mx-auto "
                 variants={container}
                 initial="hidden"
                 animate={isInView ? "visible" : "hidden"}
@@ -88,12 +88,13 @@ export default function Slide4() {
                     <motion.li
                       key={i}
                       variants={item}
-                      className={`cursor-pointer inline-block w-[45%] sm:w-[28%] lg:w-[38%] `}
+                      className={`cursor-pointer inline-block w-[45%] sm:w-[28%] lg:w-[38%] group  relative `}
                     >
                       <a href={e.link} target="blank">
                         <div
                           key={i}
-                          className="border-2 hover:!border-[#34d399] hover:text-[#34d399] px-5  shadow-sm bg-services rounded-[20px] bg-[#FBFBFB] dark:bg-[#464444] dark:border-[#464444] w-full h-[150px] md:h-[150px] xl:h-[180px] 2xl:h-[220px] text-start flex justify-center items-center flex-col "
+                          className="   hover:text-[#34d399] px-5  shadow-sm bg-services rounded-[20px] bg-[#FBFBFB] dark:bg-[#464444]
+                            w-full h-[150px] md:h-[150px] xl:h-[180px] 2xl:h-[220px] text-start flex justify-center items-center flex-col "
                         >
                           <div className="">
                             <img
@@ -107,6 +108,11 @@ export default function Slide4() {
                           </div>
                         </div>
                       </a>
+                      <div
+                        className="absolute  inset-0 rounded-[20px] group-hover:border-[1px] group-hover:border-[#34d399] dark:border-none
+                       group-hover:animate-revolve before:absolute before:inset-0 before:rounded-[20px] before:border-[1px]
+                        group-hover:before:border-[#34d399] group-hover:before:animate-revolve "
+                      ></div>
                     </motion.li>
                   );
                 })}
