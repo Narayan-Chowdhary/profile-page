@@ -27,7 +27,7 @@ const Slide15 = () => {
             variants={cardVariantsLeft}
             className="text-3xl xl:text-5xl lg:text-4xl text-[#34d399] font-bold"
           >
-            Contact Us
+            Hire me
           </div>
           <p className="text-2xl mt-4"></p>
           <p className="text-2xl font-medium">Let's catch up!</p>
