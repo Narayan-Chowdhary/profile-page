@@ -216,7 +216,7 @@ const Box = ({ isInView }) => {
             </div>
             <div className="shadow_slide6 p-1 dark:bg-[#464444]">
               <div class="grid grid-cols-4 gap-2">
-                <div class="col-span-1 bg-[#F5F6F9] py-8 md:py-4 lg:py-2 xl:py-4 2xl:py-6">
+                <div class="col-span-2 bg-[#F5F6F9] py-8 md:py-4 lg:py-2 xl:py-4 2xl:py-6">
                   <img
                     src={AwsIcon}
                     alt="AWS"
