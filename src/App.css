@@ -1,16 +1,15 @@
 .pumpkin {
-  color: #34d399
+  color: #34d399;
 }
 
 .bg-our-services {
-  background-image: url('./assests/images/slide4/showing-good-results-group-young-freelancers-office-have-conversation-smiling.png');
+  background-image: url("./assests/images/slide4/showing-good-results-group-young-freelancers-office-have-conversation-smiling.png");
   background-size: cover;
   background-repeat: no-repeat;
-
 }
 
 .bg-services {
-  background-image: url('./assests/images/slide4/Vector.png');
+  background-image: url("./assests/images/slide4/Vector.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -27,7 +26,7 @@
 }
 
 .first_content:nth-child(odd) .after_underline_slide7::before {
-  content: '';
+  content: "";
   height: 74px;
   background: #34d399;
   width: 7px;
@@ -36,9 +35,8 @@
   border-radius: 10px;
 }
 
-
 .first_content:nth-child(even) .after_underline_slide7::before {
-  content: '';
+  content: "";
   height: 74px;
   background: gray;
   width: 7px;
@@ -47,10 +45,8 @@
   border-radius: 10px;
 }
 
-
-
 .last_content:nth-child(even) .after_underline_slide7::before {
-  content: '';
+  content: "";
   height: 74px;
   background: #34d399;
   width: 7px;
@@ -60,7 +56,7 @@
 }
 
 .last_content:nth-child(odd) .after_underline_slide7::before {
-  content: '';
+  content: "";
   height: 74px;
   background: gray;
   width: 7px;
@@ -69,11 +65,9 @@
   border-radius: 10px;
 }
 
-
-
 @media (max-width: 767px) {
   .first_content:nth-child(odd) .after_underline_slide7::before {
-    content: '';
+    content: "";
     height: 50px;
     background: #34d399;
     width: 3px;
@@ -84,7 +78,7 @@
   }
 
   .first_content:nth-child(even) .after_underline_slide7::before {
-    content: '';
+    content: "";
     height: 50px;
     background: gray;
     width: 3px;
