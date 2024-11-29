@@ -87,7 +87,13 @@ export default function Slide1() {
                             }}
                             className="dark:bg-[#464444]"
                           >
-                            Portfolio
+                            <a
+                              href="assets/Narayan-Chowdhary-Resume.pdf"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              Resume
+                            </a>
                           </Typography>
                         </Box>
                       </motion.div>
