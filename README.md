@@ -1,6 +1,6 @@
 # LIVE LINK
 
-(https://narayan-profile-page.vercel.app)
+(https://narayan-portfolio-page.vercel.app)
 
 # Getting Started with Create React App
 
