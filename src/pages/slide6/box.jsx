@@ -1,7 +1,6 @@
 import HtmlIcon from "../../assests/images/slide-6/html.png";
 import CssIcon from "../../assests/images/slide-6/css.png";
 import ReactIcon from "../../assests/images/slide-6/react.png";
-import JQueryIcon from "../../assests/images/slide-6/jquery.png";
 import NextIcon from "../../assests/images/slide-6/Next.js.svg";
 
 import NodeIcon from "../../assests/images/slide-6/node.png";

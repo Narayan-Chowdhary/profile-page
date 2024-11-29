@@ -41,17 +41,17 @@ export default function Slide2() {
   return (
     <>
       <div
-        className="lg:h-[100vh] flex mt-4 sm:mt-12 lg:mt-0 overflow-hidden"
+        className="lg:h-[100vh] flex mt-4 sm:mt-12 lg:mt-0 overflow-hidden lg:flex-row flex-col"
         ref={ref}
       >
-        <div className="lg:w-[42%] xl:w-[48%] 2xl:w-[41%] h-[100vh] overflow-visible hidden lg:block">
+        <div className="lg:w-[42%] xl:w-[48%] 2xl:w-[41%] lg:h-[100vh] overflow-visible block lg:order-1 order-2 p-5 ">
           <img
             src={LeftImage}
             className="h-full w-auto overflow-visible object-contain"
           />
           {/*<div className="bg-[#34d399] h-full">.</div> */}
         </div>
-        <div className="lg:w-[58%] xl:w-[52%] 2xl:w-[59%] py-8 lg:py-4 px-4 md:mx-16 lg:ml-0 md:flex md:flex-col md:justify-evenly custom_translate">
+        <div className="lg:order-2 order-1 lg:w-[58%] xl:w-[52%] 2xl:w-[59%] py-8 lg:py-4 px-4 md:mx-16 lg:ml-0 md:flex md:flex-col md:justify-evenly custom_translate">
           <div>
             <div className="text-3xl 2xl:text-5xl lg:text-4xl font-bold flex">
               <div
