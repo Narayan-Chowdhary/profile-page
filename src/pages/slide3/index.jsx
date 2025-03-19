@@ -9,7 +9,7 @@ import { useRef } from "react";
 const json = [
   {
     heading: "Profile",
-    text: " Experienced MERN Stack Developer, Proficient in crafting visually appealing interfaces and implementing responsive design principles!",
+    text: " Experienced Full Stack Developer, Proficient in crafting visually appealing interfaces and implementing responsive design principles!",
   },
   {
     heading: "Tech Stack",

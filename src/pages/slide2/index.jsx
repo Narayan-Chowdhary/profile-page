@@ -26,7 +26,7 @@ export default function Slide2() {
       text: "Landing Pages",
     },
     {
-      num: 4,
+      num: 3,
       text: "Major Projects",
     },
     {
@@ -34,7 +34,7 @@ export default function Slide2() {
       text: "Project Completion",
     },
     {
-      num: 9,
+      num: 8,
       text: "Project Deployment",
     },
   ];
@@ -68,7 +68,7 @@ export default function Slide2() {
               </div>
             </div>
             <p className="pt-8 2xl:pr-16 xl:!leading-6 2xl:!leading-10 text-base 2xl:text-2xl">
-              Experienced MERN Stack Developer with 2 year of expertise in
+              Experienced Full Stack Developer with 2+ year of expertise in
               ReactJS, NextJS, HTML, and CSS, complemented by secondary skills
               in NodeJS. Proficient in crafting visually appealing interfaces
               and implementing responsive design principles. Skilled in

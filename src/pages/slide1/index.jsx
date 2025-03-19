@@ -134,7 +134,7 @@ export default function Slide1() {
                         }}
                         className="text-[#808080] dark:text-[#fff]"
                       >
-                        MERN Stack Developer
+                        Full Stack Developer
                       </Typography>
                     </motion.li>
                     <motion.div
@@ -158,7 +158,7 @@ export default function Slide1() {
                           }}
                           className="text-[#808080] dark:text-[#fff]"
                         >
-                          Exprtise in MERN Stack Development
+                          Exprtise in Full Stack Development
                         </Typography>
                       </motion.div>
                     </motion.div>
